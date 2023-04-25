@@ -1,0 +1,27 @@
+<template>
+	<lightning-card>
+		<div class="slds-m-around_medium">
+			<h1 class="slds-text-heading_large">Empresa: {empresa} </h1>
+			<br>
+			<p>CNPJ: {cnpj}</p>
+			<p>Endereço: {end}</p>
+		</div>
+
+		<div class="slds-m-around_medium" if:true={visible}>
+			<p>Produto: {prod}</p>
+			<p>Descrição: {descricao}</p>
+			<p>Preço: {preco}</p>
+		</div>
+
+		<div class="slds-m-around_medium" if:true={visible}>
+			<h2 class="slds-text-heading_medium">Promoção</h2>
+			<br>
+			<p>Oferta 1: {oferta1}</p>
+			<p>Oferta 2: {oferta2}</p>
+		</div>
+
+		<lightning-button variant="brand-outline" label="Ocultar" title="Ocultar informações do produto e ofertas"
+			onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+
+	</lightning-card>
+</template>
