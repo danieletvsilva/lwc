@@ -1,0 +1,13 @@
+h1 {
+  font-size: 20px;
+  color: rgb(223, 179, 6);
+  font-weight: bold;
+  text-align: center;
+}
+div {
+  background-color: rgba(187, 186, 185, 0.212);
+}
+
+c-oppsdaconta {
+  color: rgb(104, 111, 103);
+}
