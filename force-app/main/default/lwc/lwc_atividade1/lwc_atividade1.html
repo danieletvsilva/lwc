@@ -1,0 +1,16 @@
+<template>
+  <lightning-card>
+    <div class="slds-m-around_medium">
+      <lightning-icon
+        icon-name="standard:individual"
+        size="medium"
+      ></lightning-icon>
+      <h1 class="nomeCompleto">{lead.primeiroNome}{lead.sobrenome}</h1>
+
+      <p>Idade: {lead.idade}</p>
+      <p>Email: {lead.email}</p>
+      <p>Classificação: {lead.classificacao}</p>
+      <p>Receita Anual: {lead.receitaAnual}</p>
+    </div>
+  </lightning-card>
+</template>
