@@ -5,29 +5,29 @@
         label="Nome"
         type="text"
         name="nome"
-        onchange={handleInputChange}
-      ></lightning-input>
+        onchange={handleInputChange}>
+      </lightning-input>
       <lightning-input
         label="Peso"
         type="number"
         name="peso"
         step=".01"
-        onchange={handleInputChange}
-      ></lightning-input>
+        onchange={handleInputChange}>
+      </lightning-input>
       <lightning-input
         label="Altura"
         type="number"
         name="altura"
         step=".01"
-        onchange={handleInputChange}
-      ></lightning-input>
+        onchange={handleInputChange}>
+      </lightning-input>
       <br />
       <lightning-button
         variant="brand"
         label="Calcular IMC"
         title="Cálculo IMC"
-        onclick={handleOnClick}
-      ></lightning-button>
+        onclick={handleOnClick}>
+      </lightning-button>
 
       {result}
     </div>
